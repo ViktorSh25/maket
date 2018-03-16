@@ -1,0 +1,403 @@
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+.clearfix:after {clear: both;}
+
+.left {float: left;}
+.right {float: right;}
+
+
+#header {
+	position: absolute;
+	top: 30px;
+	left: 0;
+	right: 0;
+	/*width: 1920px;*/
+	padding: 0;
+	margin: 0 auto;
+} 
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	/*background-color: red;*/
+}
+
+.logo {
+	float: left;
+	padding-top: 14px;
+}
+
+.nav {
+	float: right;
+	background-color: grey;
+}
+
+
+.nav li {
+	float: left;
+	margin-right: 55px;
+}
+
+.nav a:hover {
+	display: inline-block;
+	color: #fce38a;
+	padding-bottom: 10px;
+	border-bottom: 3px solid #fce38a;
+}
+
+.nav li:last-child {margin-right: 0;}
+
+.nav a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font: 14px 'Montserrat', sans-serif;
+	color: rgb(255,255,255);
+}
+
+#banner{
+	max-width: 1920px;
+	/*height: 1000px;*/
+	margin: 0 auto;
+	padding-top: 225px;
+	text-align: center;
+	color: #FFF;
+	background: #edc888 url(../img/layer-15.jpg) no-repeat center bottom;
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+	     -0-background-size: cover;
+	        background-size: cover;
+
+}
+
+#banner h3 {
+	color: #ffffff;
+	font-family: 'Kaushan Script', cursive;
+	font-size: 72px;
+	font-weight: 400;
+	/*font: 72px/83px 'Kaushan Script', cursive;*/
+	margin-bottom: 35px;
+}
+
+#banner h1 {
+	font-family: Montserrat;
+	font-size: 150px;
+	font-weight: 700;
+	line-height: 140px;
+	text-transform: uppercase;
+	/*font: 150px/140px 'Montserrat', sans-serif;*/
+	margin-bottom: 60px;
+}
+
+.btn {
+	display: inline-block;
+	padding: 15px 33px;
+	text-transform: uppercase;
+	font: 14px 'Montserrat', sans-serif;
+	font-weight: 700;
+	color: #fff;
+	background-color: transparent;
+	cursor: pointer;
+	margin-bottom: 230px;
+}
+
+.btn:hover {
+	background: #ad8b53;
+	cursor:pointer;
+	color: #fff
+}
+
+.rectangle {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 5px;
+	margin: 0 auto ;
+	background-color: #fff;
+	margin-bottom: 45px;
+}
+
+.box {
+	padding-top: 90px;
+	padding-bottom: 105px;
+}
+
+#about_us {
+	text-align: center;
+}
+
+h2.title-curs {
+	color: #333333;
+	font-family: 'Kaushan Script', cursive;
+	font-size: 24px;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+
+h2.title {
+	color: #333333;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+}
+
+.rectangle2 {
+	/*content: "";*/
+	display: block;
+	width: 60px;
+	height: 5px;
+	margin: 0 auto ;
+	background-color: #f38181;
+	margin-bottom: 45px;
+}
+
+.descr {
+	color: #999999;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 24px;
+	margin-bottom: 90px;
+}
+
+.image {
+	float: left;
+	width: 31.83%;
+	margin-right: 2.25%;
+}
+
+.image:last-child {
+	margin-right: 0;
+}
+
+/*.bg {
+	position: relative;
+	background-image: url(../img/rectangle-7.png);
+}*/
+/*.image:first-child {
+	position: relative;
+		top: -10px; left: -10px; z-index: 5;
+}*/
+
+
+.image {
+	width: 380px;
+	height: 250px;
+	background-color: #95e1d3;
+	position: relative;
+}
+
+.image img {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.image img:hover {
+	top: -10px;
+	left: -10px;
+}
+
+
+#facts {	
+	/*left: 0;
+	right: 0;*/
+	max-width: 1920px;
+	/*height: 273px;*/
+	background-color: #95e1d3;
+	margin: 0 auto 105px;
+} 
+ 
+#facts h2 {
+	color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 72px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+
+#facts h4 {
+	color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+#facts .item {
+	width: 20%;
+	float: left;
+	/*height: 273px;*/
+	text-align: center;
+	border-left: 3px solid rgba(255,255,255,.3);
+	box-sizing: border-box;
+	padding-bottom: 65px;
+}	
+
+#facts .item:last-child {
+	border-right: 3px solid rgba(255,255,255,.3);
+}
+
+#service h2 {
+	text-align: center;
+}
+
+#service h2.title {
+	margin-bottom: 0;
+	padding-bottom: 40px;
+	position: relative;
+}
+
+#service h2.title::after {
+	content: "" ;
+	display: block;
+	width: 62px;
+	height: 6px;
+	background-color: #f38181;
+	position: absolute;
+	left: 47.42%;
+	top: 100%;
+}
+
+.service-wrap {
+	margin-top: 60px;
+	/*margin-bottom: 120px;*/
+	padding-bottom: 85px;
+	border-bottom: 4px solid #e5e5e5;
+}
+
+.service-item {
+	width: 30.8%;
+	float: left;
+	position: relative;
+	margin-right: 45px;
+}
+
+.service-item:last-child {
+	margin-right: 0;
+}
+
+.service-item img {
+	float: left;
+}
+
+#service .service-content {
+	position: absolute;
+	top: -25px;
+	left: 60px;
+}
+
+.service-content h4, {
+	color: #333;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.service-content p {
+	color: #999;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.service-wrap-two {
+	margin-top: 45px;
+	margin-bottom: 120px;
+}
+
+#feature {
+	position: relative;
+	text-align: center;
+	max-width: 1920px;
+	height: 850px;
+	margin: 0 auto /*110px*/;
+	background: grey url(../img/layer-45.jpg) no-repeat center bottom;
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+	     -0-background-size: cover;
+	        background-size: cover;
+}
+
+#feature h2.title-curs {
+	padding-top: 90px;
+}
+
+.phone1 {
+	width: 477px;
+	height: 690px;
+	position: absolute;
+    top: 265px;
+    left: 695px;
+	background: url(../img/display-bg-768x1024.jpg) no-repeat;
+	border-radius: 30px;
+}
+
+.phone2 {
+	width: 205px;
+	height: 430px;
+	background: url(../img/white.jpg) no-repeat center;
+	/*-webkit-background-size: cover;
+	   -moz-background-size: cover;
+	     -0-background-size: cover;
+	        background-size: cover;*/
+	position: absolute;
+	top: 470px;
+	left: 1090px;
+	border-radius: 35px;
+}
+
+#service2 {
+	margin-top: 110px;
+}
+
+#service2 h2 {
+	text-align: center;
+}
+
+#service2 p {
+	color: #999999;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 24px;
+	margin: 0 125px 90px;
+}
+
+#service2 .service-content p {
+	font-style: italic;
+	margin: 0;
+	padding: 20px 55px 30px 20px;
+	border-top: 1px solid #e5e5e5;
+	/*overflow: scroll;*/
+ }
+
+.ser2-wrap2 {
+ 	width: 50%;
+ 	float: left;
+
+ }
+
+.service2-item {
+	border: 1px solid #e5e5e5;
+	margin-bottom: 10px;
+	position: relative;
+}
+
+.service2-item img {
+	float: left;
+	position: absolute;
+	top: 15px;
+	left: 15px;
+} 
+
+#service2 .service-content h4 {
+	margin-left: 60px;
+}
